@@ -135,7 +135,7 @@ export_model.export_model(
 # 
 # # For a given task, tokenize and cache the required data
 # # This ensures that the text does not need to repeatedly be processed upon input
-# task_name = "semeval"
+# task_name = "semeval" #@param ['semeval', 'dep']
 # tokenize_and_cache.main(tokenize_and_cache.RunConfiguration(
 #     task_config_path=f"./tasks/configs/{task_name}_config.json",
 #     hf_pretrained_model_name_or_path=f"{model_name}",
